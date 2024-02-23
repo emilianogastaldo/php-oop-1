@@ -14,4 +14,8 @@ class Actor{
         $this->birthday = $birthday;
         $this->role = $role;
     }
+
+    public function getFullName(){
+        return $this->first_name . ' ' . $this->last_name;
+    }
 }
